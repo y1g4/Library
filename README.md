@@ -12,14 +12,17 @@ The XML file, designated as "book.xml," adheres to a well-structured hierarchy f
     • <borrower>: Borrower's Name
     • <issuedDate>: Issued Date
     • <returnDate>: Return Date
+    
 This structured approach facilitates efficient data organization and retrieval, ensuring that both book and borrowing records are well-maintained.
 System Features:
-    1. Listing Books:
+**    1. Listing Books:**
         ◦ The system allows users to list all available books.
         ◦ The Python script parses the "book.xml" file using the ElementTree library and displays book details in a tabular format.
-    2. Updating Book Information:
+        
+    **2. Updating Book Information:**
         ◦ Users can update book data, including title, author(s), category, publication year, and price.
         ◦ The Python script facilitates the modification of book information, and changes are instantly reflected in the XML file to maintain data accuracy.
+        
     3. Borrowing and Returning Books:
         ◦ The system incorporates the ability to borrow and return books.
         ◦ Users are prompted to specify the borrower's name, issued date, and return date for each book.
