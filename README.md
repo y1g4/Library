@@ -3,15 +3,15 @@
 **The Book Inventory Management System** is composed of two fundamental components: a Python script and an XML file. The Python script acts as the user interface, enabling users to interact with the system, view book records, and update borrowing information. The XML file functions as the database, housing and organizing the book and borrowing records in a structured format.
 
 **XML Data Structure:**
-The XML file, designated as "book.xml," adheres to a well-structured hierarchy for storing book-related information. Each <book> element represents an individual book and contains child elements for various attributes, including:
-    • <category>: Book Category
-    • <title>: Book Title
-    • <author>: Book Author(s)
-    • <year>: Publication Year
-    • <price>: Book Price
-    • <borrower>: Borrower's Name
-    • <issuedDate>: Issued Date
-    • <returnDate>: Return Date
+The XML file, designated as "book.xml," adheres to a well-structured hierarchy for storing book-related information. Each <book> element represents an individual book and contains child elements for various attributes, including:        
+    • <category>: Book Category        
+    • <title>: Book Title        
+    • <author>: Book Author(s)        
+    • <year>: Publication Year        
+    • <price>: Book Price        
+    • <borrower>: Borrower's Name        
+    • <issuedDate>: Issued Date        
+    • <returnDate>: Return Date        
     
 This structured approach facilitates efficient data organization and retrieval, ensuring that both book and borrowing records are well-maintained.
 System Features:
